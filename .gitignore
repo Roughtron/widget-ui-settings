@@ -1,0 +1,40 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+node_modules
+package-lock.json
+target
+resources/public
+be/src/main/resources/public/
+be/src/main/resources/widget/
+widget/distrubution/
+.env
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# cache directories
+Thumbs.db
+*.DS_Store
+*.empty
+
+.nuxt/

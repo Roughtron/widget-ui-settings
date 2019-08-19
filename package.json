@@ -1,0 +1,37 @@
+{
+  "name": "widget-ui-settings",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Roughtron <roughtron@yandex.ru>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.5.4",
+    "@nuxtjs/toast": "^3.2.1",
+    "cookieparser": "^0.1.0",
+    "dotenv": "^8.1.0",
+    "js-cookie": "^2.2.1",
+    "jwt-decode": "^2.2.0",
+    "normalizr": "^3.4.1",
+    "nuxt": "^2.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-color": "^2.7.0",
+    "vue-gettext": "^2.1.5",
+    "vee-validate": "2.0.0-rc.23"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}

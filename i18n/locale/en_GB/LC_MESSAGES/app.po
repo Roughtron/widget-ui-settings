@@ -1,0 +1,1105 @@
+# #-#-#-#-#  template-alex-be.pot (PACKAGE VERSION)  #-#-#-#-#
+# English translations for PACKAGE package.
+# Copyright (C) 2019 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-14 12:58+0500\n"
+"PO-Revision-Date: 2019-08-11 16:44+0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  template-alex-be.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  template-alex-fe.pot  #-#-#-#-#\n"
+"Generated-By: easygettext\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: be/src/main/java/tech/pigeonmail/chat/ChatServer.java:137
+#: fe/postpigeon/pages/settings/account/_id.vue:273
+#: fe/postpigeon/pages/settings/team/index.vue:74
+#: fe/postpigeon/pages/settings/team/index.vue:160
+msgid "Operator"
+msgstr "Operator"
+
+#: be/src/main/java/tech/pigeonmail/DAO.java:103
+#: be/src/main/java/tech/pigeonmail/service/AuthService.java:36
+#: be/src/main/java/tech/pigeonmail/service/AuthService.java:40
+msgid "User not found"
+msgstr "User not found"
+
+#: be/src/main/java/tech/pigeonmail/DAO.java:179
+msgid "Sent your message!"
+msgstr "Sent your message!"
+
+#: be/src/main/java/tech/pigeonmail/DAO.java:182
+msgid "Put your message in this form, we answer you later!"
+msgstr "Put your message in this form, we answer you later!"
+
+#: be/src/main/java/tech/pigeonmail/DAO.java:185
+msgid "Sent"
+msgstr "Sent"
+
+#: be/src/main/java/tech/pigeonmail/DAO.java:186
+msgid "Thank you for your message! We contact with you soon"
+msgstr "Thank you for your message! We contact with you soon"
+
+#: be/src/main/java/tech/pigeonmail/DAO.java:187
+#: fe/postpigeon/components/Widget.vue:161 widget/src/components/Widget.vue:55
+msgid "Close"
+msgstr "Close"
+
+#: be/src/main/java/tech/pigeonmail/errors/RestResponseEntityExceptionHandler.java:40
+msgid "An error occurred. Please contact to support"
+msgstr "An error occurred. Please contact to support"
+
+#: be/src/main/java/tech/pigeonmail/service/AuthService.java:45
+msgid "Wrong password"
+msgstr "Wrong password"
+
+#: be/src/main/java/tech/pigeonmail/service/AuthService.java:59
+msgid "User with this email already exist"
+msgstr "User with this email already exist"
+
+#: be/src/main/java/tech/pigeonmail/rest/UserResource.java:72
+msgid "Max count of operators"
+msgstr "Max count of operators"
+
+#: be/src/main/java/tech/pigeonmail/rest/ClientResource.java:58
+msgid "Cannot get rooms. Please contact to support"
+msgstr "Cannot get rooms. Please contact to support"
+
+#: be/src/main/java/tech/pigeonmail/rest/ClientResource.java:100
+#: be/src/main/java/tech/pigeonmail/rest/PublicResource.java:116
+msgid "Cannot get messages. Please contact to support"
+msgstr "Cannot get messages. Please contact to support"
+
+#: be/src/main/java/tech/pigeonmail/rest/PublicResource.java:76
+msgid "Cannot update information. Please contact to support"
+msgstr "Cannot update information. Please contact to support"
+
+#: be/src/main/java/tech/pigeonmail/rest/AuthResource.java:53
+msgid "Cannot sign in. Please contact to support"
+msgstr "Cannot sign in. Please contact to support"
+
+#: be/src/main/java/tech/pigeonmail/rest/AuthResource.java:70
+msgid "Cannot sign up. Please contact to support"
+msgstr "Cannot sign up. Please contact to support"
+
+#: be/src/main/java/tech/pigeonmail/rest/AuthResource.java:85
+msgid "Invalid operator registration link"
+msgstr "Invalid operator registration link"
+
+#: be/src/main/java/tech/pigeonmail/rest/AuthResource.java:97
+msgid "Registration can't be finished. Please contact to support"
+msgstr "Registration can't be finished. Please contact to support"
+
+#: be/src/main/java/tech/pigeonmail/rest/AuthResource.java:113
+msgid "Password repairing can't be finished. Please contact to support"
+msgstr "Password repairing can't be finished. Please contact to support"
+
+#: fe/postpigeon/pages/settings/team/index.vue:164
+msgid "&nbsp;It is you"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:6
+msgid "1. Customize the location of the widget"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:48
+msgid "2. Customize widget"
+msgstr ""
+
+#: fe/postpigeon/components/Bottom.vue:17
+msgid "About personal data"
+msgstr ""
+
+#: fe/postpigeon/components/DashboardMenu.vue:75
+msgid "Account"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/team/index.vue:158
+msgid "Account holder"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/team/index.vue:99
+msgid "Add"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:276
+#: fe/postpigeon/pages/settings/team/index.vue:75
+#: fe/postpigeon/pages/settings/team/index.vue:156
+msgid "Administrator"
+msgstr ""
+
+#: fe/postpigeon/components/DashboardMenu.vue:63
+msgid "Appearance Settings"
+msgstr ""
+
+#: fe/postpigeon/components/DashboardMenu.vue:45
+msgid "Archive"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:342
+msgid "Are you sure you want to delete the operator?"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:344
+msgid "Cancel"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:194
+#: fe/postpigeon/pages/settings/ui/index.vue:201
+msgid "Change the background color of the main content of the widget:"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:399
+#: fe/postpigeon/pages/settings/ui/index.vue:406
+msgid "Change the button text color:"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:347
+#: fe/postpigeon/pages/settings/ui/index.vue:354
+msgid "Change the color of the button:"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:600
+#: fe/postpigeon/pages/settings/ui/index.vue:607
+msgid "Change the color of the widget close icon:"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:246
+#: fe/postpigeon/pages/settings/ui/index.vue:253
+msgid "Change the text color of the main content of the widget:"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:298
+#: fe/postpigeon/pages/settings/ui/index.vue:305
+msgid "Change the text of the main content of the widget:"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:451
+#: fe/postpigeon/pages/settings/ui/index.vue:458
+msgid "Change the text of the send message button:"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:500
+#: fe/postpigeon/pages/settings/ui/index.vue:507
+msgid "Change the text of the success message:"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:146
+#: fe/postpigeon/pages/settings/ui/index.vue:153
+msgid "Change the text of the widget:"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:550
+#: fe/postpigeon/pages/settings/ui/index.vue:557
+msgid "Change the text on the close button of the widget:"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:397
+#: fe/postpigeon/pages/settings/notifications/index.vue:155
+#: fe/postpigeon/pages/settings/ui/index.vue:731
+msgid "Changes saved successfully!"
+msgstr ""
+
+#: fe/postpigeon/components/DashboardMenu.vue:26
+msgid "Chats"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:95
+msgid "Choose a color for the widget text:"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:53
+msgid "Choose a widget color:"
+msgstr ""
+
+#: fe/postpigeon/components/ColorPalette.vue:4
+msgid "Choose your color"
+msgstr ""
+
+#: fe/postpigeon/components/SignUpForm.vue:116
+#: fe/postpigeon/components/SignUpSecondScreen.vue:85
+msgid "Continue"
+msgstr ""
+
+#: fe/postpigeon/components/SignUpScript.vue:22
+msgid "Copied!"
+msgstr ""
+
+#: fe/postpigeon/components/SignUpScript.vue:18
+msgid "Copy code"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/notifications/index.vue:27
+msgid "Do not notify"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:315
+#, fuzzy
+msgid "Editing an account for a new operator"
+msgstr "Max count of operators"
+
+#: fe/postpigeon/components/RecoveryForm.vue:11
+#: fe/postpigeon/components/SignInForm.vue:11
+#: fe/postpigeon/components/SignUpForm.vue:11
+msgid "Email"
+msgstr ""
+
+#: fe/postpigeon/plugins/vee-validate.js:9
+msgid "Enter email"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/notifications/index.vue:66
+msgid "Enter email addresses separated by commas"
+msgstr ""
+
+#: fe/postpigeon/plugins/vee-validate.js:12
+#, fuzzy
+msgid "Enter password"
+msgstr "Wrong password"
+
+#: fe/postpigeon/plugins/vee-validate.js:18
+msgid "Enter website address"
+msgstr ""
+
+#: fe/postpigeon/plugins/vee-validate.js:15
+#, fuzzy
+msgid "Enter your name"
+msgstr "Sent your message!"
+
+#: fe/postpigeon/pages/signup/index.vue:71
+msgid "Fill in your details"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:160
+msgid "Friday"
+msgstr ""
+
+#: fe/postpigeon/components/SignUpScript.vue:30
+msgid "Go to your account"
+msgstr ""
+
+#: fe/postpigeon/components/SignInForm.vue:69
+msgid "I do not have an account"
+msgstr ""
+
+#: fe/postpigeon/components/SignInForm.vue:74
+#, fuzzy
+msgid "I forgot password"
+msgstr "Wrong password"
+
+#: fe/postpigeon/components/SignUpForm.vue:126
+msgid "I have an account"
+msgstr ""
+
+#: fe/postpigeon/pages/dashboard/index.vue:6
+msgid ""
+"In the &laquo;Inbox&raquo; Messages from clients are displayed.<br>\n"
+"      There are no messages now. If you want to check the widget, go to your "
+"site and send a message.<br><br>\n"
+"      Have you installed the code on the site yet? To install, use the "
+"instructions below\n"
+"    </br></br></br>"
+msgstr ""
+
+#: fe/postpigeon/components/WidgetPosition.vue:35
+msgid "In the center"
+msgstr ""
+
+#: fe/postpigeon/components/DashboardMenu.vue:33
+msgid "Inbox"
+msgstr ""
+
+#: fe/postpigeon/components/DashboardMenu.vue:57
+msgid "Install"
+msgstr ""
+
+#: fe/postpigeon/components/SignUpScript.vue:5
+msgid ""
+"Install the following code on each page of your site before the closing tag "
+"&lt;/body&gt;"
+msgstr ""
+
+#: fe/postpigeon/pages/signup/index.vue:73
+msgid "Install the script on the site"
+msgstr ""
+
+#: widget/src/components/RequestClientInfoForm.vue:3
+msgid "Introduce yourself to deliver the message. You will be answered"
+msgstr ""
+
+#: fe/postpigeon/components/OperatorsList.vue:12
+msgid "Leave chat"
+msgstr ""
+
+#: fe/postpigeon/components/WidgetPosition.vue:31
+msgid "Left"
+msgstr ""
+
+#: fe/postpigeon/components/RecoveryForm.vue:43
+#: fe/postpigeon/components/SignInForm.vue:60
+#: fe/postpigeon/pages/signin/index.vue:6
+msgid "Login"
+msgstr ""
+
+#: fe/postpigeon/components/UserStatus.vue:23
+msgid "Logout"
+msgstr ""
+
+#: widget/src/components/FeedbackForm.vue:222
+msgid "Message sent!"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:120
+msgid "Monday"
+msgstr ""
+
+#: fe/postpigeon/components/DashboardMenu.vue:39
+msgid "My"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:40
+msgid "Name"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:269
+#, fuzzy
+msgid "New operator"
+msgstr "Operator"
+
+#: fe/postpigeon/components/DashboardMenu.vue:81
+#: fe/postpigeon/pages/settings/notifications/index.vue:4
+#: fe/postpigeon/pages/settings/notifications/index.vue:11
+msgid "Notifications"
+msgstr ""
+
+#: fe/postpigeon/components/Bottom.vue:12
+msgid "Offer"
+msgstr ""
+
+#: fe/postpigeon/components/UserStatus.vue:43
+msgid "Offline"
+msgstr ""
+
+#: fe/postpigeon/components/UserStatus.vue:40
+#: fe/postpigeon/components/UserStatus.vue:49
+msgid "Online"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:382
+#: fe/postpigeon/pages/settings/notifications/index.vue:135
+#: fe/postpigeon/pages/settings/notifications/index.vue:145
+msgid "Oops! Something went wrong. Refresh the page and try again."
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:313
+msgid "Operator account editing:"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/team/index.vue:45
+#: fe/postpigeon/pages/settings/team/index.vue:51
+#, fuzzy
+msgid "Operator Email"
+msgstr "Operator"
+
+#: fe/postpigeon/components/DashboardMenu.vue:93
+#, fuzzy
+msgid "Operators"
+msgstr "Operator"
+
+#: fe/postpigeon/pages/dashboard/inbox/_id.vue:9
+msgid "Operators in this chat"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:81
+msgid "Optional field. So you will be represented in the chat."
+msgstr ""
+
+#: fe/postpigeon/components/SignInForm.vue:36
+#: fe/postpigeon/components/SignInForm.vue:42
+#: fe/postpigeon/components/SignUpForm.vue:91
+#: fe/postpigeon/components/SignUpForm.vue:97
+#, fuzzy
+msgid "Password"
+msgstr "Wrong password"
+
+#: fe/postpigeon/pages/recovery/index.vue:6
+msgid "Password recovery"
+msgstr ""
+
+#: fe/postpigeon/components/DashboardMenu.vue:69
+msgid "Personal"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:17
+msgid "Photo"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:66
+msgid "Position"
+msgstr ""
+
+#: fe/postpigeon/components/DashboardMenu.vue:2
+msgid "Pro-version"
+msgstr ""
+
+#: fe/postpigeon/components/RecoveryForm.vue:28
+msgid "Recovery"
+msgstr ""
+
+#: fe/postpigeon/pages/signup/index.vue:68
+msgid "Register at Feedberry"
+msgstr ""
+
+#: fe/postpigeon/pages/signup/index.vue:69
+msgid "Registration"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:235
+#: fe/postpigeon/pages/settings/account/_id.vue:343
+msgid "Remove"
+msgstr ""
+
+#: fe/postpigeon/components/WidgetPosition.vue:39
+msgid "Right"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:214
+msgid "Role"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:170
+msgid "Saturday"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:243
+#: fe/postpigeon/pages/settings/notifications/index.vue:79
+#: fe/postpigeon/pages/settings/ui/index.vue:649
+msgid "Save"
+msgstr ""
+
+#: fe/postpigeon/components/MessageBox.vue:40
+#: widget/src/components/EmojiSendBox.vue:40
+#, fuzzy
+msgid "Send a message"
+msgstr "Sent your message!"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:203
+msgid "Send notifications about the start and end of work hours"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/notifications/index.vue:41
+msgid "Send notifications to %{email}"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/notifications/index.vue:58
+msgid "Send notifications to the specified addresses:"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:112
+msgid ""
+"Set automatic change of statuses \"Online\" and \"Offline\" by day of the "
+"week"
+msgstr ""
+
+#: fe/postpigeon/components/DashboardMenu.vue:51
+msgid "Settings"
+msgstr ""
+
+#: fe/postpigeon/pages/signup/index.vue:16
+#, fuzzy
+msgid "Step %{stepText}"
+msgstr "Шаг %{stepText}"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:180
+msgid "Sunday"
+msgstr ""
+
+#: fe/postpigeon/components/DashboardMenu.vue:87
+msgid "Team"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/team/index.vue:2
+msgid "Team management"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/team/index.vue:68
+msgid "The rights"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:6
+msgid ""
+"There is very little left and you can start work. Fill out the form below "
+"and click \"Save\" :)"
+msgstr ""
+
+#: fe/postpigeon/plugins/vee-validate.js:8
+msgid "This does not seem to be email"
+msgstr ""
+
+#: fe/postpigeon/components/SignUpForm.vue:80
+#: fe/postpigeon/components/SignUpSecondScreen.vue:77
+msgid "This field is optional"
+msgstr ""
+
+#: fe/postpigeon/plugins/vee-validate.js:19
+msgid "This is not like url"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:56
+msgid "This name will be displayed in a chat with your visitors"
+msgstr ""
+
+#: fe/postpigeon/components/SignUpForm.vue:55
+msgid "This name will be shown to clients in the chat"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:150
+msgid "Thursday"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:91
+msgid "Timezone"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:130
+msgid "Tuesday"
+msgstr ""
+
+#: fe/postpigeon/components/UploadImage.vue:3
+msgid "Upload image"
+msgstr ""
+
+#: fe/postpigeon/components/MessageBox.vue:29
+#: widget/src/components/EmojiSendBox.vue:29
+msgid "Use Tab to open emoticons faster"
+msgstr ""
+
+#: fe/postpigeon/plugins/filters.js:3 widget/src/plugins/filters.js:3
+msgid "val"
+msgstr "val"
+
+#: widget/src/components/OperatorsOffline.vue:1
+msgid ""
+"We are not online right now. Send your question and we will answer you by "
+"mail during business hours."
+msgstr ""
+
+#: fe/postpigeon/components/RecoveryForm.vue:37
+msgid "We have sent you an email with the new password on %{mail}"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:11
+msgid ""
+"We recommend placing the widget at the bottom right. So it will not overlap "
+"the main content of the site."
+msgstr ""
+
+#: fe/postpigeon/components/SignUpSecondScreen.vue:36
+msgid "Website address"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:140
+msgid "Wednesday"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:4
+msgid "Welcome to Feedberry!"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:102
+msgid "Widget color"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:60
+msgid "Widget color:"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/ui/index.vue:18
+msgid "Widget Position:"
+msgstr ""
+
+#: fe/postpigeon/components/Widget.vue:19 widget/src/components/Widget.vue:37
+msgid "Widget provided"
+msgstr ""
+
+#: fe/postpigeon/pages/settings/account/_id.vue:109
+msgid "Work hours"
+msgstr ""
+
+#: fe/postpigeon/components/MessageBox.vue:7
+#: widget/src/components/EmojiSendBox.vue:2
+msgid "Write a message..."
+msgstr ""
+
+#: fe/postpigeon/components/SignInForm.vue:17
+#: fe/postpigeon/components/SignUpForm.vue:17
+msgid "Your email"
+msgstr ""
+
+#: fe/postpigeon/components/Widget.vue:83
+#: fe/postpigeon/components/Widget.vue:90
+#: widget/src/components/FeedbackForm.vue:81
+#: widget/src/components/FeedbackForm.vue:88
+#: widget/src/components/RequestClientInfoForm.vue:35
+#: widget/src/components/RequestClientInfoForm.vue:42
+msgid "Your email*"
+msgstr ""
+
+#: fe/postpigeon/components/Widget.vue:41
+#: fe/postpigeon/components/Widget.vue:48 widget/src/components/ChatForm.vue:12
+#: widget/src/components/FeedbackForm.vue:30
+#: widget/src/components/FeedbackForm.vue:37
+#, fuzzy
+msgid "Your message*"
+msgstr "Sent your message!"
+
+#: fe/postpigeon/components/SignUpForm.vue:37
+#: fe/postpigeon/components/SignUpForm.vue:43
+#: fe/postpigeon/components/SignUpSecondScreen.vue:10
+#: fe/postpigeon/components/SignUpSecondScreen.vue:16
+#: fe/postpigeon/components/Widget.vue:61
+#: fe/postpigeon/components/Widget.vue:68
+#: widget/src/components/FeedbackForm.vue:58
+#: widget/src/components/FeedbackForm.vue:65
+#: widget/src/components/RequestClientInfoForm.vue:10
+#: widget/src/components/RequestClientInfoForm.vue:17
+msgid "Your name"
+msgstr ""
+
+#: fe/postpigeon/components/SignUpForm.vue:66
+#: fe/postpigeon/components/SignUpForm.vue:72
+#: fe/postpigeon/components/SignUpSecondScreen.vue:63
+#: fe/postpigeon/components/Widget.vue:105
+#: fe/postpigeon/components/Widget.vue:112
+#: widget/src/components/FeedbackForm.vue:109
+#: widget/src/components/FeedbackForm.vue:116
+msgid "Your phone number"
+msgstr ""
+
+#: fe/postpigeon/components/SignUpSecondScreen.vue:42
+msgid "Your website address"
+msgstr ""
+
+#~ msgid "Ваш телефон"
+#~ msgstr "Ваш телефон"
+
+#~ msgid "Ваше имя"
+#~ msgstr "Ваше имя"
+
+#~ msgid "Ваше сообщение*"
+#~ msgstr "Ваше сообщение*"
+
+#~ msgid "Напишите сообщение..."
+#~ msgstr "Напишите сообщение..."
+
+#~ msgid "Отправить сообщение"
+#~ msgstr "Отправить сообщение"
+
+#~ msgid "Продолжить"
+#~ msgstr "Продолжить"
+
+#~ msgid "&nbsp;(Это вы)"
+#~ msgstr "&nbsp;(Это вы)"
+
+#~ msgid "1. Настройте расположение виджета"
+#~ msgstr "1. Настройте расположение виджета"
+
+#~ msgid "2. Настройте виджет"
+#~ msgstr "2. Настройте виджет"
+
+#~ msgid "Email оператора"
+#~ msgstr "Email оператора"
+
+#~ msgid "Администратор"
+#~ msgstr "Администратор"
+
+#~ msgid "Адрес вашего сайта"
+#~ msgstr "Адрес вашего сайта"
+
+#~ msgid "Адрес сайта"
+#~ msgstr "Адрес сайта"
+
+#~ msgid "Аккаунт"
+#~ msgstr "Аккаунт"
+
+#~ msgid "Архив"
+#~ msgstr "Архив"
+
+#~ msgid "Ваш email"
+#~ msgstr "Ваш email"
+
+#~ msgid "Ваш email*"
+#~ msgstr "Ваш email*"
+
+#~ msgid "Введите email"
+#~ msgstr "Введите email"
+
+#~ msgid "Введите адрес сайта"
+#~ msgstr "Введите адрес сайта"
+
+#~ msgid "Введите адреса email'ов через запятую"
+#~ msgstr "Введите адреса email'ов через запятую"
+
+#~ msgid "Введите имя"
+#~ msgstr "Введите имя"
+
+#~ msgid "Введите пароль"
+#~ msgstr "Введите пароль"
+
+#~ msgid "Виджет предоставлен"
+#~ msgstr "Виджет предоставлен"
+
+#~ msgid "Владелец аккаунта"
+#~ msgstr "Владелец аккаунта"
+
+#~ msgid "Внешний вид"
+#~ msgstr "Внешний вид"
+
+#~ msgid ""
+#~ "Во вкладке &laquo;Входящие&raquo; отображаются сообщения от клиентов. "
+#~ "<br>\n"
+#~ "      Сейчас сообщений нет. Если хотите проверить работу виджета - "
+#~ "зайдите на свой сайт и отправьте сообщение.\n"
+#~ "      <br><br>\n"
+#~ "      Еще не установили код на сайт? Для установки воспользуйтесь "
+#~ "инструкциями ниже\n"
+#~ "    </br></br></br>"
+#~ msgstr ""
+#~ "Во вкладке &laquo;Входящие&raquo; отображаются сообщения от клиентов. "
+#~ "<br>\n"
+#~ "      Сейчас сообщений нет. Если хотите проверить работу виджета - "
+#~ "зайдите на свой сайт и отправьте сообщение.\n"
+#~ "      <br><br>\n"
+#~ "      Еще не установили код на сайт? Для установки воспользуйтесь "
+#~ "инструкциями ниже\n"
+#~ "    </br></br></br>"
+
+#~ msgid "Войти"
+#~ msgstr "Войти"
+
+#~ msgid "Воскресенье"
+#~ msgstr "Воскресенье"
+
+#~ msgid "Восстановить"
+#~ msgstr "Восстановить"
+
+#~ msgid "Восстановление пароля"
+#~ msgstr "Восстановление пароля"
+
+#~ msgid "Вторник"
+#~ msgstr "Вторник"
+
+#~ msgid "Вход"
+#~ msgstr "Вход"
+
+#~ msgid "Входящие"
+#~ msgstr "Входящие"
+
+#~ msgid "Вы действительно хотите удалить оператора?"
+#~ msgstr "Вы действительно хотите удалить оператора?"
+
+#~ msgid "Выберите свой цвет"
+#~ msgstr "Выберите свой цвет"
+
+#~ msgid "Выберите цвет виджета:"
+#~ msgstr "Выберите цвет виджета:"
+
+#~ msgid "Выберите цвет текста виджета"
+#~ msgstr "Выберите цвет текста виджета"
+
+#~ msgid "Выйти"
+#~ msgstr "Выйти"
+
+#~ msgid "Выйти из чата"
+#~ msgstr "Выйти из чата"
+
+#~ msgid "Главное меню"
+#~ msgstr "Главное меню"
+
+#~ msgid "Добавить"
+#~ msgstr "Добавить"
+
+#~ msgid "Добро пожаловать в Feedberry!"
+#~ msgstr "Добро пожаловать в Feedberry!"
+
+#~ msgid "Должность"
+#~ msgstr "Должность"
+
+#~ msgid "Загрузить изображение"
+#~ msgstr "Загрузить изображение"
+
+#~ msgid "Закрыть"
+#~ msgstr "Закрыть"
+
+#~ msgid "Заполните данные о себе"
+#~ msgstr "Заполните данные о себе"
+
+#~ msgid "Изменения успешно сохранены!"
+#~ msgstr "Изменения успешно сохранены!"
+
+#~ msgid "Измените текст виджета:"
+#~ msgstr "Измените текст виджета:"
+
+#~ msgid "Измените текст кнопки отправки сообщения:"
+#~ msgstr "Измените текст кнопки отправки сообщения:"
+
+#~ msgid "Измените текст на кнопке закрытия виджета:"
+#~ msgstr "Измените текст на кнопке закрытия виджета:"
+
+#~ msgid "Измените текст основного контента виджета:"
+#~ msgstr "Измените текст основного контента виджета:"
+
+#~ msgid "Измените текст сообщения об успешной отправке:"
+#~ msgstr "Измените текст сообщения об успешной отправке:"
+
+#~ msgid "Измените цвет иконки закрытия виджета:"
+#~ msgstr "Измените цвет иконки закрытия виджета:"
+
+#~ msgid "Измените цвет кнопки:"
+#~ msgstr "Измените цвет кнопки:"
+
+#~ msgid "Измените цвет подложки основного контента виджета:"
+#~ msgstr "Измените цвет подложки основного контента виджета:"
+
+#~ msgid "Измените цвет текста кнопки:"
+#~ msgstr "Измените цвет текста кнопки:"
+
+#~ msgid "Измените цвет текста основного контента виджета:"
+#~ msgstr "Измените цвет текста основного контента виджета:"
+
+#~ msgid "Имя"
+#~ msgstr "Имя"
+
+#~ msgid "Используйте Tab, чтобы быстрее открывать смайлы"
+#~ msgstr "Используйте Tab, чтобы быстрее открывать смайлы"
+
+#~ msgid "Команда"
+#~ msgstr "Команда"
+
+#~ msgid "Личное"
+#~ msgstr "Личное"
+
+#~ msgid "Мои"
+#~ msgstr "Мои"
+
+#~ msgid "Мы отправили вам письмо с новым паролем на %{mail}"
+#~ msgstr "Мы отправили вам письмо с новым паролем на %{mail}"
+
+#~ msgid ""
+#~ "Мы рекомендуем распологать виджет внизу справа. Так он не будет "
+#~ "перекрывать основной контент сайта."
+#~ msgstr ""
+#~ "Мы рекомендуем распологать виджет внизу справа. Так он не будет "
+#~ "перекрывать основной контент сайта."
+
+#~ msgid ""
+#~ "Мы сейчас не онлайн. Отправьте свой вопрос и мы ответим вам по почте в "
+#~ "рабочее время."
+#~ msgstr ""
+#~ "Мы сейчас не онлайн. Отправьте свой вопрос и мы ответим вам по почте в "
+#~ "рабочее время."
+
+#~ msgid "Настройки"
+#~ msgstr "Настройки"
+
+#~ msgid ""
+#~ "Настройте автоматическую смену статусов \"Онлайн\" и \"Офлайн\" по дням "
+#~ "недели"
+#~ msgstr ""
+#~ "Настройте автоматическую смену статусов \"Онлайн\" и \"Офлайн\" по дням "
+#~ "недели"
+
+#~ msgid "Не оповещать"
+#~ msgstr "Не оповещать"
+
+#~ msgid "Необязательное поле. Так вы будете представлены в чате."
+#~ msgstr "Необязательное поле. Так вы будете представлены в чате."
+
+#~ msgid "О персональных данных"
+#~ msgstr "О персональных данных"
+
+#~ msgid "Оператор"
+#~ msgstr "Оператор"
+
+#~ msgid "Операторы"
+#~ msgstr "Операторы"
+
+#~ msgid "Операторы в этом чате"
+#~ msgstr "Операторы в этом чате"
+
+#~ msgid "Оповещения"
+#~ msgstr "Оповещения"
+
+#~ msgid ""
+#~ "Осталось совсем немного и можно начинать работу. Заполни анкету ниже и "
+#~ "нажми \"Сохранить\" :)"
+#~ msgstr ""
+#~ "Осталось совсем немного и можно начинать работу. Заполни анкету ниже и "
+#~ "нажми \"Сохранить\" :)"
+
+#~ msgid "Отмена"
+#~ msgstr "Отмена"
+
+#~ msgid "Отправлять уведемления о начале и окончании рабочих часов"
+#~ msgstr "Отправлять уведемления о начале и окончании рабочих часов"
+
+#~ msgid "Пароль"
+#~ msgstr "Пароль"
+
+#~ msgid "Перейти в кабинет"
+#~ msgstr "Перейти в кабинет"
+
+#~ msgid "По центру"
+#~ msgstr "По центру"
+
+#~ msgid "Показать информацию"
+#~ msgstr "Показать информацию"
+
+#~ msgid "Положение виджета:"
+#~ msgstr "Положение виджета:"
+
+#~ msgid "Понедельник"
+#~ msgstr "Понедельник"
+
+#~ msgid "Похоже, это не email"
+#~ msgstr "Похоже, это не email"
+
+#~ msgid "Права"
+#~ msgstr "Права"
+
+#~ msgid "Предложение"
+#~ msgstr "Предложение"
+
+#~ msgid "Представьтесь для доставки сообщения. Вам обязательно ответят"
+#~ msgstr "Представьтесь для доставки сообщения. Вам обязательно ответят"
+
+#~ msgid "Присылать оповещения на %{email}"
+#~ msgstr "Присылать оповещения на %{email}"
+
+#~ msgid "Присылать оповещения на указанные адреса:"
+#~ msgstr "Присылать оповещения на указанные адреса:"
+
+#~ msgid "Про-версия"
+#~ msgstr "Про-версия"
+
+#~ msgid "Пятница"
+#~ msgstr "Пятница"
+
+#~ msgid "Регистрация"
+#~ msgstr "Регистрация"
+
+#~ msgid "Регистрация в Feedberry"
+#~ msgstr "Регистрация в Feedberry"
+
+#~ msgid "Редактирование аккаунта для нового оператора"
+#~ msgstr "Редактирование аккаунта для нового оператора"
+
+#~ msgid "Редактирование аккаунта для оператора"
+#~ msgstr "Редактирование аккаунта для оператора"
+
+#~ msgid "Роль"
+#~ msgstr "Роль"
+
+#~ msgid "Скопировано!"
+#~ msgstr "Скопировано!"
+
+#~ msgid "Скопировать код"
+#~ msgstr "Скопировать код"
+
+#~ msgid "Слева"
+#~ msgstr "Слева"
+
+#~ msgid "Сообщение отправлено!"
+#~ msgstr "Сообщение отправлено!"
+
+#~ msgid "Сохранить"
+#~ msgstr "Сохранить"
+
+#~ msgid "Справа"
+#~ msgstr "Справа"
+
+#~ msgid "Среда"
+#~ msgstr "Среда"
+
+#~ msgid "Суббота"
+#~ msgstr "Суббота"
+
+#~ msgid "У меня есть аккаунт"
+#~ msgstr "У меня есть аккаунт"
+
+#~ msgid "У меня нет аккаунта"
+#~ msgstr "У меня нет аккаунта"
+
+#~ msgid "Уведомления"
+#~ msgstr "Уведомления"
+
+#~ msgid "Удалить"
+#~ msgstr "Удалить"
+
+#~ msgid "Управление командой"
+#~ msgstr "Управление командой"
+
+#~ msgid "Упс! Что-то пошло не так. Обновите страницу и попробуйте снова"
+#~ msgstr "Упс! Что-то пошло не так. Обновите страницу и попробуйте снова"
+
+#~ msgid "Установите скрипт на сайт"
+#~ msgstr "Установите скрипт на сайт"
+
+#~ msgid ""
+#~ "Установите следующий код на каждую страницу вашего сайта перед "
+#~ "закрывающимся тегом &lt;/body&gt;"
+#~ msgstr ""
+#~ "Установите следующий код на каждую страницу вашего сайта перед "
+#~ "закрывающимся тегом &lt;/body&gt;"
+
+#~ msgid "Установка"
+#~ msgstr "Установка"
+
+#~ msgid "Фото"
+#~ msgstr "Фото"
+
+#~ msgid "Цвет виджета"
+#~ msgstr "Цвет виджета"
+
+#~ msgid "Цвет виджета:"
+#~ msgstr "Цвет виджета:"
+
+#~ msgid "Часовой пояс"
+#~ msgstr "Часовой пояс"
+
+#~ msgid "Часы работы"
+#~ msgstr "Часы работы"
+
+#~ msgid "Чаты"
+#~ msgstr "Чаты"
+
+#~ msgid "Четверг"
+#~ msgstr "Четверг"
+
+#~ msgid "Электронная почта"
+#~ msgstr "Электронная почта"
+
+#~ msgid "Это имя будет отображаться в чате с вашими посетителями"
+#~ msgstr "Это имя будет отображаться в чате с вашими посетителями"
+
+#~ msgid "Это имя будет показываться клиентам в чате"
+#~ msgstr "Это имя будет показываться клиентам в чате"
+
+#~ msgid "Это не похоже на url"
+#~ msgstr "Это не похоже на url"
+
+#~ msgid "Это поле необязательно для заполнения"
+#~ msgstr "Это поле необязательно для заполнения"
+
+#~ msgid "Я забыл пароль"
+#~ msgstr "Я забыл пароль"

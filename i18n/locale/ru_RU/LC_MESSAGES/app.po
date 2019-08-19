@@ -1,0 +1,706 @@
+# #-#-#-#-#  template-alex-be.pot (PACKAGE VERSION)  #-#-#-#-#
+# Russian translations for PACKAGE package
+# Английские переводы для пакета PACKAGE.
+# Copyright (C) 2019 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-14 12:58+0500\n"
+"PO-Revision-Date: 2019-08-14 12:59+0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: easygettext\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: be/src/main/java/tech/pigeonmail/chat/ChatServer.java:137
+#: fe/postpigeon/pages/settings/account/_id.vue:273
+#: fe/postpigeon/pages/settings/team/index.vue:74
+#: fe/postpigeon/pages/settings/team/index.vue:160
+msgid "Operator"
+msgstr "Оператор"
+
+#: be/src/main/java/tech/pigeonmail/DAO.java:103
+#: be/src/main/java/tech/pigeonmail/service/AuthService.java:36
+#: be/src/main/java/tech/pigeonmail/service/AuthService.java:40
+msgid "User not found"
+msgstr "Пользователь не найден"
+
+#: be/src/main/java/tech/pigeonmail/DAO.java:179
+msgid "Sent your message!"
+msgstr "Отправьте свое сообщение!"
+
+#: be/src/main/java/tech/pigeonmail/DAO.java:182
+msgid "Put your message in this form, we answer you later!"
+msgstr "Оставьте свое сообщение в этой форме, мы ответим вам позже!"
+
+#: be/src/main/java/tech/pigeonmail/DAO.java:185
+msgid "Sent"
+msgstr "Отправить"
+
+#: be/src/main/java/tech/pigeonmail/DAO.java:186
+msgid "Thank you for your message! We contact with you soon"
+msgstr "Спасибо за ваше сообщение! Мы свяжемся с вами позже"
+
+#: be/src/main/java/tech/pigeonmail/DAO.java:187
+#: fe/postpigeon/components/Widget.vue:161 widget/src/components/Widget.vue:55
+msgid "Close"
+msgstr "Закрыть"
+
+#: be/src/main/java/tech/pigeonmail/errors/RestResponseEntityExceptionHandler.java:40
+msgid "An error occurred. Please contact to support"
+msgstr "Произошла ошибка. Пожалуйста, свяжитесь с поддержкой"
+
+#: be/src/main/java/tech/pigeonmail/service/AuthService.java:45
+msgid "Wrong password"
+msgstr "Неверный пароль"
+
+#: be/src/main/java/tech/pigeonmail/service/AuthService.java:59
+msgid "User with this email already exist"
+msgstr "Пользователь с таким email уже существует"
+
+#: be/src/main/java/tech/pigeonmail/rest/UserResource.java:72
+msgid "Max count of operators"
+msgstr "Максимальное количество операторов"
+
+#: be/src/main/java/tech/pigeonmail/rest/ClientResource.java:58
+msgid "Cannot get rooms. Please contact to support"
+msgstr "Невозможно получить комнаты. Пожалуйста, свяжитесь с поддержкой"
+
+#: be/src/main/java/tech/pigeonmail/rest/ClientResource.java:100
+#: be/src/main/java/tech/pigeonmail/rest/PublicResource.java:116
+msgid "Cannot get messages. Please contact to support"
+msgstr "Невозможно получить сообщения. Пожалуйста, свяжитесь с поддержкой"
+
+#: be/src/main/java/tech/pigeonmail/rest/PublicResource.java:76
+msgid "Cannot update information. Please contact to support"
+msgstr "Невозможно обновить информацию. Пожалуйста, свяжитесь с поддержкой"
+
+#: be/src/main/java/tech/pigeonmail/rest/AuthResource.java:53
+msgid "Cannot sign in. Please contact to support"
+msgstr "Невозможно совершить вход. Пожалуйста, свяжитесь с поддержкой"
+
+#: be/src/main/java/tech/pigeonmail/rest/AuthResource.java:70
+msgid "Cannot sign up. Please contact to support"
+msgstr "Невозможно совершить регистрацию. Пожалуйста, свяжитесь с поддержкой"
+
+#: be/src/main/java/tech/pigeonmail/rest/AuthResource.java:85
+msgid "Invalid operator registration link"
+msgstr "Неверная ссылка регистрации оператора"
+
+#: be/src/main/java/tech/pigeonmail/rest/AuthResource.java:97
+msgid "Registration can't be finished. Please contact to support"
+msgstr ""
+"Регистрация не может быть завершена. Пожалуйста, свяжитесь с поддержкой"
+
+#: be/src/main/java/tech/pigeonmail/rest/AuthResource.java:113
+msgid "Password repairing can't be finished. Please contact to support"
+msgstr ""
+"Восстановление пароля не может быть закончено. Пожалуйста, свяжитесь с "
+"поддержкой"
+
+#: fe/postpigeon/pages/settings/team/index.vue:164
+#, fuzzy
+msgid "&nbsp;It is you"
+msgstr "&nbsp;(Это вы)"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:6
+msgid "1. Customize the location of the widget"
+msgstr "1. Настройте расположение виджета"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:48
+msgid "2. Customize widget"
+msgstr "2. Настройте виджет"
+
+#: fe/postpigeon/components/Bottom.vue:17
+msgid "About personal data"
+msgstr "О персональных данных"
+
+#: fe/postpigeon/components/DashboardMenu.vue:75
+msgid "Account"
+msgstr "Аккаунт"
+
+#: fe/postpigeon/pages/settings/team/index.vue:158
+msgid "Account holder"
+msgstr "Владелец аккаунта"
+
+#: fe/postpigeon/pages/settings/team/index.vue:99
+msgid "Add"
+msgstr "Добавить"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:276
+#: fe/postpigeon/pages/settings/team/index.vue:75
+#: fe/postpigeon/pages/settings/team/index.vue:156
+msgid "Administrator"
+msgstr "Администратор"
+
+#: fe/postpigeon/components/DashboardMenu.vue:63
+msgid "Appearance Settings"
+msgstr "Внешний вид"
+
+#: fe/postpigeon/components/DashboardMenu.vue:45
+msgid "Archive"
+msgstr "Архив"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:342
+msgid "Are you sure you want to delete the operator?"
+msgstr "Вы действительно хотите удалить оператора?"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:344
+msgid "Cancel"
+msgstr "Отмена"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:194
+#: fe/postpigeon/pages/settings/ui/index.vue:201
+msgid "Change the background color of the main content of the widget:"
+msgstr "Измените цвет подложки основного контента виджета:"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:399
+#: fe/postpigeon/pages/settings/ui/index.vue:406
+msgid "Change the button text color:"
+msgstr "Измените цвет текста кнопки:"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:347
+#: fe/postpigeon/pages/settings/ui/index.vue:354
+msgid "Change the color of the button:"
+msgstr "Измените цвет кнопки:"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:600
+#: fe/postpigeon/pages/settings/ui/index.vue:607
+msgid "Change the color of the widget close icon:"
+msgstr "Измените цвет иконки закрытия виджета:"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:246
+#: fe/postpigeon/pages/settings/ui/index.vue:253
+msgid "Change the text color of the main content of the widget:"
+msgstr "Измените цвет текста основного контента виджета:"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:298
+#: fe/postpigeon/pages/settings/ui/index.vue:305
+msgid "Change the text of the main content of the widget:"
+msgstr "Измените текст основного контента виджета:"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:451
+#: fe/postpigeon/pages/settings/ui/index.vue:458
+msgid "Change the text of the send message button:"
+msgstr "Измените текст кнопки отправки сообщения:"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:500
+#: fe/postpigeon/pages/settings/ui/index.vue:507
+msgid "Change the text of the success message:"
+msgstr "Измените текст сообщения об успешной отправке:"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:146
+#: fe/postpigeon/pages/settings/ui/index.vue:153
+msgid "Change the text of the widget:"
+msgstr "Измените текст виджета:"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:550
+#: fe/postpigeon/pages/settings/ui/index.vue:557
+msgid "Change the text on the close button of the widget:"
+msgstr "Измените текст на кнопке закрытия виджета:"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:397
+#: fe/postpigeon/pages/settings/notifications/index.vue:155
+#: fe/postpigeon/pages/settings/ui/index.vue:731
+msgid "Changes saved successfully!"
+msgstr "Изменения успешно сохранены!"
+
+#: fe/postpigeon/components/DashboardMenu.vue:26
+msgid "Chats"
+msgstr "Чаты"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:95
+msgid "Choose a color for the widget text:"
+msgstr "Выберите цвет текста виджета:"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:53
+msgid "Choose a widget color:"
+msgstr "Выберите цвет виджета:"
+
+#: fe/postpigeon/components/ColorPalette.vue:4
+msgid "Choose your color"
+msgstr "Выберите свой цвет"
+
+#: fe/postpigeon/components/SignUpForm.vue:116
+#: fe/postpigeon/components/SignUpSecondScreen.vue:85
+msgid "Continue"
+msgstr "Продолжить"
+
+#: fe/postpigeon/components/SignUpScript.vue:22
+msgid "Copied!"
+msgstr "Скопировано!"
+
+#: fe/postpigeon/components/SignUpScript.vue:18
+msgid "Copy code"
+msgstr "Скопировать код"
+
+#: fe/postpigeon/pages/settings/notifications/index.vue:27
+msgid "Do not notify"
+msgstr "Не оповещать"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:315
+msgid "Editing an account for a new operator"
+msgstr "Редактирование аккаунта для нового оператора"
+
+#: fe/postpigeon/components/RecoveryForm.vue:11
+#: fe/postpigeon/components/SignInForm.vue:11
+#: fe/postpigeon/components/SignUpForm.vue:11
+msgid "Email"
+msgstr "Email"
+
+#: fe/postpigeon/plugins/vee-validate.js:9
+msgid "Enter email"
+msgstr "Введите email"
+
+#: fe/postpigeon/pages/settings/notifications/index.vue:66
+msgid "Enter email addresses separated by commas"
+msgstr "Введите адреса email’ов через запятую"
+
+#: fe/postpigeon/plugins/vee-validate.js:12
+msgid "Enter password"
+msgstr "Введите пароль"
+
+#: fe/postpigeon/plugins/vee-validate.js:18
+msgid "Enter website address"
+msgstr "Введите адрес сайта"
+
+#: fe/postpigeon/plugins/vee-validate.js:15
+msgid "Enter your name"
+msgstr "Введите свое имя"
+
+#: fe/postpigeon/pages/signup/index.vue:71
+msgid "Fill in your details"
+msgstr "Заполните данные о себе"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:160
+msgid "Friday"
+msgstr "Пятница"
+
+#: fe/postpigeon/components/SignUpScript.vue:30
+msgid "Go to your account"
+msgstr "Перейти в кабинет"
+
+#: fe/postpigeon/components/SignInForm.vue:69
+msgid "I do not have an account"
+msgstr "У меня нет аккаунта"
+
+#: fe/postpigeon/components/SignInForm.vue:74
+msgid "I forgot password"
+msgstr "Я забыл пароль"
+
+#: fe/postpigeon/components/SignUpForm.vue:126
+msgid "I have an account"
+msgstr "У меня есть аккаунт"
+
+#: fe/postpigeon/pages/dashboard/index.vue:6
+msgid ""
+"In the &laquo;Inbox&raquo; Messages from clients are displayed.<br>\n"
+"      There are no messages now. If you want to check the widget, go to your "
+"site and send a message.<br><br>\n"
+"      Have you installed the code on the site yet? To install, use the "
+"instructions below\n"
+"    </br></br></br>"
+msgstr ""
+"Во вкладке &laquo;Входящие&raquo; отображаются сообщения от клиентов. <br>\n"
+"Сейчас сообщений нет. Если хотите проверить работу виджета - зайдите на свой "
+"сайт и отправьте сообщение.<br><br>\n"
+"Еще не установили код на сайт? Для установки воспользуйтесь инструкциями "
+"ниже\n"
+"</br></br></br>"
+
+#: fe/postpigeon/components/WidgetPosition.vue:35
+msgid "In the center"
+msgstr "По центру"
+
+#: fe/postpigeon/components/DashboardMenu.vue:33
+msgid "Inbox"
+msgstr "Входящие"
+
+#: fe/postpigeon/components/DashboardMenu.vue:57
+msgid "Install"
+msgstr "Установка"
+
+#: fe/postpigeon/components/SignUpScript.vue:5
+msgid ""
+"Install the following code on each page of your site before the closing tag "
+"&lt;/body&gt;"
+msgstr ""
+"Установите следующий код на каждую страницу вашего сайта перед закрывающимся "
+"тегом &lt;/body&gt;"
+
+#: fe/postpigeon/pages/signup/index.vue:73
+msgid "Install the script on the site"
+msgstr "Установите скрипт на сайт"
+
+#: widget/src/components/RequestClientInfoForm.vue:3
+msgid "Introduce yourself to deliver the message. You will be answered"
+msgstr "Представьтесь для доставки сообщения. Вам обязательно ответят"
+
+#: fe/postpigeon/components/OperatorsList.vue:12
+msgid "Leave chat"
+msgstr "Выйти из чата"
+
+#: fe/postpigeon/components/WidgetPosition.vue:31
+msgid "Left"
+msgstr "Слева"
+
+#: fe/postpigeon/components/RecoveryForm.vue:43
+#: fe/postpigeon/components/SignInForm.vue:60
+#: fe/postpigeon/pages/signin/index.vue:6
+msgid "Login"
+msgstr "Войти"
+
+#: fe/postpigeon/components/UserStatus.vue:23
+msgid "Logout"
+msgstr "Выйти"
+
+#: widget/src/components/FeedbackForm.vue:222
+msgid "Message sent!"
+msgstr "Сообщение отправлено!"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:120
+msgid "Monday"
+msgstr "Понедельник"
+
+#: fe/postpigeon/components/DashboardMenu.vue:39
+msgid "My"
+msgstr "Мои"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:40
+msgid "Name"
+msgstr "Имя"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:269
+msgid "New operator"
+msgstr "Новый оператор"
+
+#: fe/postpigeon/components/DashboardMenu.vue:81
+#: fe/postpigeon/pages/settings/notifications/index.vue:4
+#: fe/postpigeon/pages/settings/notifications/index.vue:11
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: fe/postpigeon/components/Bottom.vue:12
+msgid "Offer"
+msgstr "Предложение"
+
+#: fe/postpigeon/components/UserStatus.vue:43
+msgid "Offline"
+msgstr "Офлайн"
+
+#: fe/postpigeon/components/UserStatus.vue:40
+#: fe/postpigeon/components/UserStatus.vue:49
+msgid "Online"
+msgstr "Онлайн"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:382
+#: fe/postpigeon/pages/settings/notifications/index.vue:135
+#: fe/postpigeon/pages/settings/notifications/index.vue:145
+msgid "Oops! Something went wrong. Refresh the page and try again."
+msgstr "Упс! Что-то пошло не так. Обновите страницу и попробуйте снова"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:313
+msgid "Operator account editing:"
+msgstr "Редактирование аккаунта для оператора:"
+
+#: fe/postpigeon/pages/settings/team/index.vue:45
+#: fe/postpigeon/pages/settings/team/index.vue:51
+msgid "Operator Email"
+msgstr "Email оператора"
+
+#: fe/postpigeon/components/DashboardMenu.vue:93
+msgid "Operators"
+msgstr "Операторы"
+
+#: fe/postpigeon/pages/dashboard/inbox/_id.vue:9
+msgid "Operators in this chat"
+msgstr "Операторы в этом чате"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:81
+msgid "Optional field. So you will be represented in the chat."
+msgstr "Необязательное поле. Так вы будете представлены в чате."
+
+#: fe/postpigeon/components/SignInForm.vue:36
+#: fe/postpigeon/components/SignInForm.vue:42
+#: fe/postpigeon/components/SignUpForm.vue:91
+#: fe/postpigeon/components/SignUpForm.vue:97
+msgid "Password"
+msgstr "Пароль"
+
+#: fe/postpigeon/pages/recovery/index.vue:6
+msgid "Password recovery"
+msgstr "Восстановление пароля"
+
+#: fe/postpigeon/components/DashboardMenu.vue:69
+msgid "Personal"
+msgstr "Личное"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:17
+msgid "Photo"
+msgstr "Фото"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:66
+msgid "Position"
+msgstr "Должность"
+
+#: fe/postpigeon/components/DashboardMenu.vue:2
+msgid "Pro-version"
+msgstr "Про-версия"
+
+#: fe/postpigeon/components/RecoveryForm.vue:28
+msgid "Recovery"
+msgstr "Восстановить"
+
+#: fe/postpigeon/pages/signup/index.vue:68
+msgid "Register at Feedberry"
+msgstr "Регистрация в Feedberry"
+
+#: fe/postpigeon/pages/signup/index.vue:69
+msgid "Registration"
+msgstr "Регистрация"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:235
+#: fe/postpigeon/pages/settings/account/_id.vue:343
+msgid "Remove"
+msgstr "Удалить"
+
+#: fe/postpigeon/components/WidgetPosition.vue:39
+msgid "Right"
+msgstr "Справа"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:214
+msgid "Role"
+msgstr "Роль"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:170
+msgid "Saturday"
+msgstr "Суббота"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:243
+#: fe/postpigeon/pages/settings/notifications/index.vue:79
+#: fe/postpigeon/pages/settings/ui/index.vue:649
+msgid "Save"
+msgstr "Сохранить"
+
+#: fe/postpigeon/components/MessageBox.vue:40
+#: widget/src/components/EmojiSendBox.vue:40
+msgid "Send a message"
+msgstr "Отправить сообщение"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:203
+msgid "Send notifications about the start and end of work hours"
+msgstr "Отправлять уведомления о начале и окончании рабочих часов"
+
+#: fe/postpigeon/pages/settings/notifications/index.vue:41
+msgid "Send notifications to %{email}"
+msgstr "Присылать оповещения на %{email}"
+
+#: fe/postpigeon/pages/settings/notifications/index.vue:58
+msgid "Send notifications to the specified addresses:"
+msgstr "Присылать оповещения на указанные адреса:"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:112
+msgid ""
+"Set automatic change of statuses \"Online\" and \"Offline\" by day of the "
+"week"
+msgstr ""
+"Настройте автоматическую смену статусов «Онлайн» и «Офлайн» по дням недели"
+
+#: fe/postpigeon/components/DashboardMenu.vue:51
+msgid "Settings"
+msgstr "Настройки"
+
+#: fe/postpigeon/pages/signup/index.vue:16
+msgid "Step %{stepText}"
+msgstr "Шаг %{stepText}"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:180
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: fe/postpigeon/components/DashboardMenu.vue:87
+msgid "Team"
+msgstr "Команда"
+
+#: fe/postpigeon/pages/settings/team/index.vue:2
+msgid "Team management"
+msgstr "Управление командой"
+
+#: fe/postpigeon/pages/settings/team/index.vue:68
+msgid "The rights"
+msgstr "Права"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:6
+msgid ""
+"There is very little left and you can start work. Fill out the form below "
+"and click \"Save\" :)"
+msgstr ""
+"Осталось совсем немного и можно начинать работу. Заполни анкету ниже и нажми "
+"«Сохранить» :)"
+
+#: fe/postpigeon/plugins/vee-validate.js:8
+msgid "This does not seem to be email"
+msgstr "Похоже, это не email"
+
+#: fe/postpigeon/components/SignUpForm.vue:80
+#: fe/postpigeon/components/SignUpSecondScreen.vue:77
+msgid "This field is optional"
+msgstr "Это поле необязательно для заполнения"
+
+#: fe/postpigeon/plugins/vee-validate.js:19
+msgid "This is not like url"
+msgstr "Это не похоже на url"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:56
+msgid "This name will be displayed in a chat with your visitors"
+msgstr "Это имя будет отображаться в чате с вашими посетителями"
+
+#: fe/postpigeon/components/SignUpForm.vue:55
+msgid "This name will be shown to clients in the chat"
+msgstr "Это имя будет показываться клиентам в чате"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:150
+msgid "Thursday"
+msgstr "Четверг"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:91
+msgid "Timezone"
+msgstr "Часовой пояс"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:130
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: fe/postpigeon/components/UploadImage.vue:3
+msgid "Upload image"
+msgstr "Загрузить изображение"
+
+#: fe/postpigeon/components/MessageBox.vue:29
+#: widget/src/components/EmojiSendBox.vue:29
+msgid "Use Tab to open emoticons faster"
+msgstr "Используйте Tab, чтобы быстрее открывать смайлы"
+
+#: fe/postpigeon/plugins/filters.js:3 widget/src/plugins/filters.js:3
+msgid "val"
+msgstr ""
+
+#: widget/src/components/OperatorsOffline.vue:1
+msgid ""
+"We are not online right now. Send your question and we will answer you by "
+"mail during business hours."
+msgstr ""
+"Мы сейчас не онлайн. Отправьте свой вопрос и мы ответим вам по почте в "
+"рабочее время."
+
+#: fe/postpigeon/components/RecoveryForm.vue:37
+msgid "We have sent you an email with the new password on %{mail}"
+msgstr "Мы отправили вам письмо с новым паролем на %{mail}"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:11
+msgid ""
+"We recommend placing the widget at the bottom right. So it will not overlap "
+"the main content of the site."
+msgstr ""
+"Мы рекомендуем расположить виджет внизу справа. Так он не будет перекрывать "
+"основной контент сайта."
+
+#: fe/postpigeon/components/SignUpSecondScreen.vue:36
+msgid "Website address"
+msgstr "Адрес сайта"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:140
+msgid "Wednesday"
+msgstr "Среда"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:4
+msgid "Welcome to Feedberry!"
+msgstr "Добро пожаловать в Feedberry!"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:102
+msgid "Widget color"
+msgstr "Цвет виджета"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:60
+msgid "Widget color:"
+msgstr "Цвет виджета:"
+
+#: fe/postpigeon/pages/settings/ui/index.vue:18
+msgid "Widget Position:"
+msgstr "Положение виджета:"
+
+#: fe/postpigeon/components/Widget.vue:19 widget/src/components/Widget.vue:37
+msgid "Widget provided"
+msgstr "Виджет предоставлен"
+
+#: fe/postpigeon/pages/settings/account/_id.vue:109
+msgid "Work hours"
+msgstr "Часы работы"
+
+#: fe/postpigeon/components/MessageBox.vue:7
+#: widget/src/components/EmojiSendBox.vue:2
+msgid "Write a message..."
+msgstr "Напишите сообщение…"
+
+#: fe/postpigeon/components/SignInForm.vue:17
+#: fe/postpigeon/components/SignUpForm.vue:17
+msgid "Your email"
+msgstr "Ваш email"
+
+#: fe/postpigeon/components/Widget.vue:83
+#: fe/postpigeon/components/Widget.vue:90
+#: widget/src/components/FeedbackForm.vue:81
+#: widget/src/components/FeedbackForm.vue:88
+#: widget/src/components/RequestClientInfoForm.vue:35
+#: widget/src/components/RequestClientInfoForm.vue:42
+msgid "Your email*"
+msgstr "Ваш email*"
+
+#: fe/postpigeon/components/Widget.vue:41
+#: fe/postpigeon/components/Widget.vue:48 widget/src/components/ChatForm.vue:12
+#: widget/src/components/FeedbackForm.vue:30
+#: widget/src/components/FeedbackForm.vue:37
+msgid "Your message*"
+msgstr "Ваше сообщение*"
+
+#: fe/postpigeon/components/SignUpForm.vue:37
+#: fe/postpigeon/components/SignUpForm.vue:43
+#: fe/postpigeon/components/SignUpSecondScreen.vue:10
+#: fe/postpigeon/components/SignUpSecondScreen.vue:16
+#: fe/postpigeon/components/Widget.vue:61
+#: fe/postpigeon/components/Widget.vue:68
+#: widget/src/components/FeedbackForm.vue:58
+#: widget/src/components/FeedbackForm.vue:65
+#: widget/src/components/RequestClientInfoForm.vue:10
+#: widget/src/components/RequestClientInfoForm.vue:17
+msgid "Your name"
+msgstr "Ваше имя"
+
+#: fe/postpigeon/components/SignUpForm.vue:66
+#: fe/postpigeon/components/SignUpForm.vue:72
+#: fe/postpigeon/components/SignUpSecondScreen.vue:63
+#: fe/postpigeon/components/Widget.vue:105
+#: fe/postpigeon/components/Widget.vue:112
+#: widget/src/components/FeedbackForm.vue:109
+#: widget/src/components/FeedbackForm.vue:116
+msgid "Your phone number"
+msgstr "Ваш телефон"
+
+#: fe/postpigeon/components/SignUpSecondScreen.vue:42
+msgid "Your website address"
+msgstr "Адрес вашего сайта"
+
+#~ msgid "Main menu"
+#~ msgstr "Главное меню"
+
+#~ msgid "Show info"
+#~ msgstr "Показать информацию"
