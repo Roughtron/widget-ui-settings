@@ -535,7 +535,7 @@
 </template>
 
 <script>
-  import { mapGetters } from 'vuex'
+  import { mapGetters, mapActions } from 'vuex'
   import Widget from '~/components/Widget.vue'
   import WidgetPosition from '~/components/WidgetPosition.vue'
   import ColorPalette from '~/components/ColorPalette.vue'
@@ -544,6 +544,7 @@
   export default {
     layout: 'settings',
     middleware: ['admin'],
+
     data () {
       return {
         defaultColors: [
@@ -557,32 +558,37 @@
         ]
       }
     },
+  
     async fetch ({ store }) {
       await store.dispatch('getSettings', store.getters.userToken)
     },
+
     computed: {
       ...mapGetters([
         'settings',
         'userToken',
-        'widgetUI'
+        'widgetUI',
+        'widgetPosition'
       ]),
-      position () {
-        return this.$store.getters.widgetPosition
-      },
+
       positionClass () {
-        return `widget_position_${this.position}`
+        return `widget_position_${this.widgetPosition}`
       }
     },
+
     components: {
       Widget,
       WidgetPosition,
       ColorPalette,
       TextEditor
     },
+
     methods: {
+      ...mapActions(['saveSettings']),
+
       saveForm () {
         try {
-          this.$store.dispatch('saveSettings', {
+          this.saveSettings({
             payload: this.settings,
             token: this.userToken
           })

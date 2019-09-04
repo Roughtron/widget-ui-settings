@@ -41,31 +41,37 @@
 </template>
 
 <script>
+  import { mapGetters } from 'vuex'
+
   export default {
     props: {
       isInbox: Boolean
     },
+
     data () {
       return {
         isCopied: false
       }
     },
+
     computed: {
+      ...mapGetters(['formId']),
+
       code () {
         /* eslint-disable */
-        return `<script>!function(){window.addEventListener("load",function(){var t;(t=document.createElement("script")).async=!0,t.src="https://feedberry.ru/backend/api/public/widget/loader/${this.$store.getters.formId}/file.js",document.body.appendChild(t)})}()<\/script>`
+        return `<script>!function(){window.addEventListener("load",function(){var t;(t=document.createElement("script")).async=!0,t.src="https://feedberry.ru/backend/api/public/widget/loader/${this.formId}/file.js",document.body.appendChild(t)})}()<\/script>`
         /* eslint-enable */
       }
     },
-    methods: {
-      doCopy () {
-        this.$copyText(this.code).then(() => {
-          this.isCopied = true
 
-          setTimeout(() => {
-            this.isCopied = false
-          }, 3000)
-        })
+    methods: {
+      async doCopy () {
+        await this.$copyText(this.code)
+        this.isCopied = true
+
+        setTimeout(() => {
+          this.isCopied = false
+        }, 3000)
       }
     }
   }

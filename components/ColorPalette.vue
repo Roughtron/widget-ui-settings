@@ -52,6 +52,7 @@
 </template>
 
 <script>
+  import { mapActions, mapState } from 'vuex'
   import { Chrome } from 'vue-color'
 
   export default {
@@ -62,21 +63,31 @@
         isCustomColorActive: false
       }
     },
+
     props: {
       property: String,
       colors: Array
     },
+
     components: {
       'chrome-picker': Chrome
     },
+
     computed: {
+      ...mapState({
+        UI: state => state.UI.Widget
+      }),
+
       color () {
-        return this.$store.getters.widgetProperty(this.property)
+        return this.UI[this.property]
       }
     },
+
     methods: {
+      ...mapActions(['changeWidgetProperty']),
+
       onColorChange (color) {
-        this.$store.dispatch('changeWidgetProperty', {
+        this.changeWidgetProperty({
           property: this.property,
           value: color
         })
@@ -91,8 +102,8 @@
           hex: '#444846'
         }
 
-        if (!this.colors.includes(this.$store.getters.widgetProperty(this.property))) {
-          return { hex: this.$store.getters.widgetProperty(this.property) }
+        if (!this.colors.includes(this.color)) {
+          return { hex: this.color }
         }
 
         return color

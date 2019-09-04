@@ -26,6 +26,8 @@
 </template>
 
 <script>
+  import { mapGetters, mapActions } from 'vuex'
+
   export default {
     data () {
       return {
@@ -45,14 +47,20 @@
         ]
       }
     },
+
     computed: {
+      ...mapGetters(['widgetProperty']),
+
       position () {
-        return this.$store.getters.widgetProperty('position')
+        return this.widgetProperty('position')
       }
     },
+
     methods: {
+      ...mapActions(['changeWidgetProperty']),
+
       onPositionChange (position) {
-        this.$store.dispatch('changeWidgetProperty', {
+        this.changeWidgetProperty({
           property: 'position',
           value: position
         })

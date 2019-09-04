@@ -92,7 +92,7 @@
 </template>
 
 <script>
-  import { mapGetters } from 'vuex'
+  import { mapGetters, mapActions } from 'vuex'
   import normalizeUrl from 'normalize-url'
 
   export default {
@@ -112,24 +112,25 @@
     },
 
     methods: {
-      validateBeforeSubmit () {
-        this.$validator.validateAll().then(isValid => {
-          if (isValid) {
-            this.sendForm()
-          }
-        })
+      ...mapActions(['updateUser', 'changeSignUpScreen']),
+
+      async validateBeforeSubmit () {
+        const isValid = await this.$validator.validateAll()
+        if (isValid) {
+          this.sendForm()
+        }
       },
 
       async sendForm () {
         try {
-          await this.$store.dispatch('updateUser', {
+          await this.updateUser({
             username: this.username,
             website: normalizeUrl(this.website),
             phone: this.phone,
             token: this.userToken
           })
 
-          this.$store.dispatch('changeSignUpScreen', {
+          this.changeSignUpScreen({
             screen: 'SignUpScript',
             step: 2
           })

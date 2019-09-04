@@ -43,6 +43,7 @@
           customClass: 'is-docs'
         })
       },
+
       showOffer () {
         const message = `<iframe src="https://docs.google.com/document/d/e/2PACX-1vQ9ZVCbZ4avI3KWqPpJpLG5smjDyeO-mrBXu5TV5O7RlJbZgD2sEXRj1gTcK2HQmgtiaaUsFRP3aqNK/pub?embedded=true" style="min-width:100%;height:100%;border: 0;"></iframe>`
         this.$dialog.alert(message, {

@@ -131,16 +131,18 @@
 </template>
 
 <script>
-  import { mapGetters } from 'vuex'
+  import { mapGetters, mapActions } from 'vuex'
   import Btn from '~/components/Button.vue'
 
   export default {
     props: {
       token: String
     },
+
     components: {
       Btn
     },
+
     data () {
       return {
         email: '',
@@ -150,17 +152,21 @@
         formError: null
       }
     },
+
     computed: {
       ...mapGetters(['formId'])
     },
+
     methods: {
-      async signup () {
+      ...mapActions(['signUp', 'signUpOperator', 'changeSignUpScreen']),
+
+      async signupUser () {
         try {
-          await this.$store.dispatch('signup', {
+          await this.signup({
             email: this.email,
             password: this.password
           })
-          this.$store.dispatch('changeSignUpScreen', {
+          this.changeSignUpScreen({
             screen: 'SignUpSecondScreen',
             step: 1
           })
@@ -173,9 +179,10 @@
           }
         }
       },
+
       async signupOperator () {
         try {
-          await this.$store.dispatch('signupOperator', {
+          await this.signupOperator({
             password: this.password,
             phone: this.phone,
             token: this.token,
@@ -190,18 +197,20 @@
           }
         }
       },
-      validateBeforeSubmit (e) {
-        this.$validator.validateAll().then(isValid => {
+
+      async validateBeforeSubmit (e) {
+        try {
+          const isValid = await this.$validator.validateAll()
           if (isValid) {
             if (!this.token) {
-              this.signup()
+              this.signupUser()
             } else {
               this.signupOperator()
             }
           }
-        }).catch(e => {
+        } catch (e) {
           console.log(e)
-        })
+        }
       }
     }
   }

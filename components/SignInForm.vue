@@ -88,6 +88,7 @@
     components: {
       Btn
     },
+
     data () {
       return {
         email: '',
@@ -95,12 +96,13 @@
         formError: null
       }
     },
+
     methods: {
       ...mapActions(['login']),
 
-      async login () {
+      async signIn () {
         try {
-          await this.$store.dispatch('login', {
+          await this.login({
             email: this.email,
             password: this.password
           })
@@ -115,14 +117,15 @@
         }
       },
 
-      validateBeforeSubmit (e) {
-        this.$validator.validateAll().then(isValid => {
+      async validateBeforeSubmit () {
+        try {
+          const isValid = await this.$validator.validateAll()
           if (isValid) {
-            this.login()
+            this.signIn()
           }
-        }).catch(e => {
+        } catch(e) {
           console.log(e)
-        })
+        }
       }
     }
   }

@@ -1,24 +1,36 @@
 <template>
   <div class="text-editor">
-    <textarea class="form-field form-field_type_textarea text-editor__input" v-model="text" @input="onInput"></textarea>
+    <textarea
+      class="form-field form-field_type_textarea text-editor__input"
+      :value="text"
+      @input="onInput">
+    </textarea>
   </div>
 </template>
 
 <script>
+  import { mapActions, mapGetters } from 'vuex'
+
   export default {
     props: {
       property: {
         type: String
       }
     },
+
     computed: {
+      ...mapGetters(['widgetProperty']),
+
       text () {
-        return this.$store.getters.widgetProperty(this.property)
+        return this.widgetProperty(this.property)
       }
     },
+
     methods: {
+      ...mapActions(['changeWidgetProperty']),
+
       onInput (e) {
-        this.$store.dispatch('changeWidgetProperty', { property: this.property, value: e.target.value })
+        this.changeWidgetProperty({ property: this.property, value: e.target.value })
       }
     }
   }

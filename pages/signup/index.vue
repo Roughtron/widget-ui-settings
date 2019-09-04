@@ -32,7 +32,7 @@
 </template>
 
 <script>
-  import { mapGetters } from 'vuex'
+  import { mapGetters, mapActions } from 'vuex'
   import Top from '~/components/Top.vue'
   import SignUpForm from '~/components/SignUpForm.vue'
   import SignUpSecondScreen from '~/components/SignUpSecondScreen.vue'
@@ -59,9 +59,12 @@
       PageTitle
     },
     methods: {
+      ...mapActions(['resetSignUpPage']),
+
       isActiveStep (step) {
         return this.step === step
       },
+
       getPageTitle () {
         switch (this.step) {
           case 0:
@@ -75,7 +78,7 @@
       }
     },
     beforeRouteLeave (to, from, next) {
-      next(setTimeout(() => this.$store.dispatch('resetSignUpPage'), 300))
+      next(setTimeout(() => this.resetSignUpPage(), 300))
     }
   }
 </script>

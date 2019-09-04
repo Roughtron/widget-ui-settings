@@ -59,6 +59,7 @@
     components: {
       Btn
     },
+
     data () {
       return {
         email: '',
@@ -66,12 +67,13 @@
         isSend: false
       }
     },
+
     methods: {
       ...mapActions(['recovery']),
 
-      async recovery () {
+      async recoveryPassword () {
         try {
-          await this.$store.dispatch('recovery', {
+          await this.recovery({
             email: this.email
           })
           this.isSend = true
@@ -85,14 +87,15 @@
         }
       },
 
-      validateBeforeSubmit (e) {
-        this.$validator.validateAll().then(isValid => {
+      async validateBeforeSubmit (e) {
+        try {
+          const isValid = await this.$validator.validateAll()
           if (isValid) {
-            this.recovery()
+            this.recoveryPassword()
           }
-        }).catch(e => {
+        } catch(e) {
           console.log(e)
-        })
+        }
       }
     }
   }
